@@ -1,4 +1,4 @@
-Automated McCune-Reischauer Romanization and Word Division for Korean Text
+ï»¿Automated McCune-Reischauer Romanization and Word Division for Korean Text
 =====
 
 * Automatically segments a Hangul sentence into its constituent parts of speech following the McCune-Reischauer rules for word segmentation
@@ -20,9 +20,9 @@ from romanizer import Romanizer
 
 r = Romanizer()
 
-r.Segment('»ı¹°ÇĞÀû Á×À½¿¡¼­ ÀÎ°£Àû Á×À½À¸·Î')
-Out[57]: '»ı¹°ÇĞÀû Á×À½ ¿¡¼­ ÀÎ°£Àû Á×À½ À¸·Î'
+r.Segment('ìƒë¬¼í•™ì  ì£½ìŒì—ì„œ ì¸ê°„ì  ì£½ìŒìœ¼ë¡œ')
+Out[57]: 'ìƒë¬¼í•™ì  ì£½ìŒ ì—ì„œ ì¸ê°„ì  ì£½ìŒ ìœ¼ë¡œ'
 
-r.Romanize('ÀÛ°¡ÀÇ Á¤Ã¼¼º°ú °³ÀÛ, ±×¸®°í Æò°¡ : È²¼ø¿ø "¿òÁ÷ÀÌ´Â ¼º"ÀÇ °³ÀÛÀ» Áß½ÉÀ¸·Î')
-Out[32]: "chakka ?i ch?ngch'es?ng kwa kaejak k?rigo p'y?ngka : hwang sunw?n umjigin?n s?ng ?i kaejak ?l chungsim ?ro"
+r.Romanize('ì‘ê°€ì˜ ì •ì²´ì„±ê³¼ ê°œì‘, ê·¸ë¦¬ê³  í‰ê°€ : í™©ìˆœì› "ì›€ì§ì´ëŠ” ì„±"ì˜ ê°œì‘ì„ ì¤‘ì‹¬ìœ¼ë¡œ')
+Out[32]: "chakka Å­i chÅngch'esÅng kwa kaejak kÅ­rigo p'yÅngka : hwang sunwÅn umjiginÅ­n sÅng Å­i kaejak Å­l chungsim Å­ro"
 ```
