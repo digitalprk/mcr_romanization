@@ -11,3 +11,18 @@ Information
 
 * For information on McCune-Reischauer Romanization : https://www.loc.gov/catdir/cpso/romanization/korean.pdf
 * For information on this project : http://digitalnk.com/blog/2017/12/23/neural-networks-and-the-bane-of-romanization/
+
+Usage
+----
+
+```
+from romanizer import Romanizer
+
+r = Romanizer()
+
+r.Segment('생물학적 죽음에서 인간적 죽음으로')
+Out[57]: '생물학적 죽음 에서 인간적 죽음 으로'
+
+r.Romanize('작가의 정체성과 개작, 그리고 평가 : 황순원 "움직이는 성"의 개작을 중심으로')
+Out[32]: "chakka ?i ch?ngch'es?ng kwa kaejak k?rigo p'y?ngka : hwang sunw?n umjigin?n s?ng ?i kaejak ?l chungsim ?ro"
+```
