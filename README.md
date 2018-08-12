@@ -11,6 +11,7 @@ Information
 
 * For information on McCune-Reischauer Romanization : https://www.loc.gov/catdir/cpso/romanization/korean.pdf
 * For information on this project : http://digitalnk.com/blog/2017/12/23/neural-networks-and-the-bane-of-romanization/
+* Online beta: http://www.digitalnk.com/romanizer/
 
 Usage
 ----
